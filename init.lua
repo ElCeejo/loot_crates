@@ -394,7 +394,7 @@ mob_core.register_spawn({
 	min_rad = 24,
 	max_rad = 256,
 	group = 0,
-}, 300, 1)
+}, 300, 15)
 
 mob_core.register_spawn({
 	name = "loot_crates:uncommon",
@@ -406,7 +406,7 @@ mob_core.register_spawn({
 	min_rad = 24,
 	max_rad = 256,
 	group = 0,
-}, 300, 5)
+}, 300, 20)
 
 mob_core.register_spawn({
 	name = "loot_crates:rare",
@@ -418,4 +418,4 @@ mob_core.register_spawn({
 	min_rad = 24,
 	max_rad = 256,
 	group = 0,
-}, 300, 10)
+}, 300, 25)
